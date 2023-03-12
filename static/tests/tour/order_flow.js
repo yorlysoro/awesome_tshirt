@@ -12,12 +12,12 @@ tour.register(
 		{
 			content: 'Put and image url',
 			trigger: '#url',
-			run: 'text test_url'
+			run: 'text test_url',
 		},
 		{
 			content: 'Put a name',
 			trigger: '#name',
-			run: 'text test_name'
+			run: 'text test_name',
 		},
 		{
 			content: 'Add quantity',
@@ -27,12 +27,12 @@ tour.register(
 		{
 			content: 'Put an address',
 			trigger: '#address',
-			run: 'text test_address'
+			run: 'text test_address',
 		},
 		{
 			content: 'Put an email',
 			trigger: '#email',
-			run: 'text test_email'
+			run: 'text test_email',
 		},
 		{
 			content: "Order",

@@ -19,7 +19,7 @@ export class CustomerAutocomplete extends Component {
 		return [
 			{
 				placeholder: this.env._t("Loading..."),
-				options: this.loadOptionsSources.bind(this);
+				options: this.loadOptionsSources.bind(this),
 			},
 		];
 	}

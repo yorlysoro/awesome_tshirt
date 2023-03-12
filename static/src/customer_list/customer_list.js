@@ -15,7 +15,7 @@ export class CustomerList extends Component {
 		this.KeepLast = new KeepLast();
 		this.state = useState({
 			searchString: "",
-			displayActiveCustomers: false;
+			displayActiveCustomers: false,
 		});
 		onWillStart(async () =>{
 			const { length, records } = await this.loadCustomers();
