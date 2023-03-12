@@ -181,10 +181,8 @@ msgstr "Encodez l'url de l'image"
 msgid "Average amount of t-shirt by order this month"
 msgstr "Montant en moyenne de t-shirt par commande ce mois-ci"
 
-#. module: awesome_tshirt
-#. openerp-web
-#: code:addons/awesome_tshirt/static/src/client_action.js:0
-#, python-format
+#. module: awesome_tshirt openerp-web
+#. code:addons/awesome_tshirt/static/src/client_action.js:0 python-format
 msgid "Average time for an order to go from 'new' to 'sent' or 'cancelled'"
 msgstr "Temps moyen pour qu'une commande passe de 'nouvelle' à 'envoyée' ou 'annulée'."
 

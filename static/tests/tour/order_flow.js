@@ -44,7 +44,7 @@ tour.register(
 			trigger: "button",
 			run: () => {
 				window.location.href = '/web';
-			}
+			},
 		},
 		tour.stepUtils.showAppsMenuItem(),
 		{
