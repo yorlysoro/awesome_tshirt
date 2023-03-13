@@ -62,7 +62,7 @@ tour.register(
 		},
 		{
 			content: "Is the new line there",
-			trigger: "o.o_list_number:contains('123,456')",
+			trigger: ".o_list_number:contains('123,456')",
 		},
 	]
 );
